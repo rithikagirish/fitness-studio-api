@@ -1,0 +1,128 @@
+{
+  "sample_users": [
+    {
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "password": "password123"
+    },
+    {
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "password": "password123"
+    },
+    {
+      "name": "Charlie Davis",
+      "email": "charlie@example.com",
+      "password": "password123"
+    },
+    {
+      "name": "Diana Prince",
+      "email": "diana@example.com",
+      "password": "password123"
+    }
+  ],
+  "sample_classes": [
+    {
+      "name": "Morning Yoga Flow",
+      "dateTime": "2025-02-17T10:00:00Z",
+      "instructor": "Sarah Williams",
+      "availableSlots": 20
+    },
+    {
+      "name": "HIIT Cardio Blast",
+      "dateTime": "2025-02-18T18:00:00Z",
+      "instructor": "Mike Johnson",
+      "availableSlots": 15
+    },
+    {
+      "name": "Zumba Dance Party",
+      "dateTime": "2025-02-19T19:00:00Z",
+      "instructor": "Maria Garcia",
+      "availableSlots": 25
+    },
+    {
+      "name": "Power Pilates",
+      "dateTime": "2025-02-20T09:00:00Z",
+      "instructor": "Emma Thompson",
+      "availableSlots": 12
+    },
+    {
+      "name": "Spin & Burn",
+      "dateTime": "2025-02-21T17:00:00Z",
+      "instructor": "David Lee",
+      "availableSlots": 18
+    },
+    {
+      "name": "Sunset Yoga",
+      "dateTime": "2025-02-22T18:30:00Z",
+      "instructor": "Sarah Williams",
+      "availableSlots": 20
+    },
+    {
+      "name": "CrossFit Fundamentals",
+      "dateTime": "2025-02-23T06:00:00Z",
+      "instructor": "Chris Martin",
+      "availableSlots": 10
+    },
+    {
+      "name": "Meditation & Mindfulness",
+      "dateTime": "2025-02-24T08:00:00Z",
+      "instructor": "Lisa Chen",
+      "availableSlots": 30
+    }
+  ],
+  "sample_bookings": [
+    {
+      "user_email": "alice@example.com",
+      "class_name": "Morning Yoga Flow",
+      "client_name": "Alice Johnson",
+      "client_email": "alice@example.com"
+    },
+    {
+      "user_email": "alice@example.com",
+      "class_name": "HIIT Cardio Blast",
+      "client_name": "Alice Johnson",
+      "client_email": "alice@example.com"
+    },
+    {
+      "user_email": "bob@example.com",
+      "class_name": "Zumba Dance Party",
+      "client_name": "Bob Smith",
+      "client_email": "bob@example.com"
+    },
+    {
+      "user_email": "bob@example.com",
+      "class_name": "Power Pilates",
+      "client_name": "Bob Smith",
+      "client_email": "bob@example.com"
+    },
+    {
+      "user_email": "charlie@example.com",
+      "class_name": "Spin & Burn",
+      "client_name": "Charlie Davis",
+      "client_email": "charlie@example.com"
+    },
+    {
+      "user_email": "diana@example.com",
+      "class_name": "Morning Yoga Flow",
+      "client_name": "Diana Prince",
+      "client_email": "diana@example.com"
+    },
+    {
+      "user_email": "diana@example.com",
+      "class_name": "Meditation & Mindfulness",
+      "client_name": "Diana Prince",
+      "client_email": "diana@example.com"
+    }
+  ],
+  "usage_instructions": {
+    "automated_seeding": "Run 'python seed_data.py' to automatically populate the database",
+    "manual_testing": "Use the sample credentials above to login and test the API",
+    "test_credentials": [
+      "alice@example.com / password123",
+      "bob@example.com / password123",
+      "charlie@example.com / password123",
+      "diana@example.com / password123"
+    ]
+  }
+}
